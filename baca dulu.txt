@@ -1,5 +1,5 @@
 Buka localhost/phpmyadmin
 Buat database baru dengan Nama toko-game
 Lalu import database toko-game yg ada di folder "database"
-
 buka text editor lalu ubah file config.php yang ada di folder application config.php pada baris base url, hapus localhost:888/toko_game ubah menjadi localhost/toko_game yo karna saya disini menggunakan mamp dan belum disetting portnya 
+
