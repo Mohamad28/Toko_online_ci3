@@ -37,4 +37,10 @@ class Invoice extends CI_Controller
         $this->load->view('admin/detail_invoice', $data);
         $this->load->view('templates_admin/footer');
     }
+
+    public function hapus($id)
+    {
+        $this->model_invoice->hapus_data($id);
+        redirect('admin/invoice/index');
+    }
 }

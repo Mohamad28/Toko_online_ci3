@@ -67,4 +67,9 @@ class Model_invoice extends CI_Model
             return false;
         }
     }
+
+    public function hapus_data($id)
+    {
+        $this->db->delete('tb_invoice', ['id' => $id]);
+    }
 }

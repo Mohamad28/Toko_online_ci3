@@ -18,12 +18,17 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('admin/dashboard_admin') ?>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('admin/user') ?>">
+                    <i class="fas fa-fw fa-users-cog"></i>
+                    <span>Pengguna</span></a>
+            </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">

@@ -4,6 +4,10 @@ class Auth extends CI_Controller
 {
     public function login()
     {
+        // if ($this->session->userdata('username')) {
+        //     redirect('admin/dashboard_admin');
+        // }
+
         $this->form_validation->set_rules('username', 'Username', 'required', [
             'required' => 'Username wajib diisi!'
         ]);

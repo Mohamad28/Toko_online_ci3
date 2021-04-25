@@ -4,7 +4,7 @@
         <i class="fas fa-plus fa-sm"></i> Tambah Barang
     </button>
 
-    <table class="table table-bordered">
+    <table class="table table-striped table-hover">
         <tr>
             <th>NO</th>
             <th>NAMA BARANG</th>
